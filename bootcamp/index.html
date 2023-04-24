@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <style>
+        button {
+            background-color: transparent;
+            border: 1px solid navy;
+            color: navy;
+            padding: 20px;
+            margin: 100px 0px 10px 100px;
+            font-size: 1.4rem;
+            border-radius: 15px;
+        }
+
+        button:hover {
+           background-color: navy;
+           border: 1px solid white;
+           color: white;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            color: navy;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0px 0px 10px 100px ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample Page</h1>
+    <button>Click me</button>
+    <div class="container"></div>
+
+    <script>
+        function onClickEvent() {
+            const el = document.createElement('p');
+            el.classList.add('message');
+            el.innerText = 'Button Clicked';
+            document.querySelector('.container').append(el);            
+        }
+
+        document.querySelector('button').onclick = onClickEvent;
+    </script>
+</body>
+</html>
