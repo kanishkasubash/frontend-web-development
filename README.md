@@ -71,7 +71,7 @@ Linking an external .css file
 <link rel="stylesheet" type="text/css" href="css/style.css">
 ```
 
-## JavaScript From Scratch
+## [JavaScript From Scratch](https://github.com/kanishkasubash/frontend-web-development/tree/master/javascript-crash-course)
 
 ### JavaScript
 
