@@ -48,6 +48,6 @@ In this section, I have learned as much as possible about CSS. I have looked at 
 
 ## JavaScript From Scratch
 
-### Java Script
+### JavaScript
 
 JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.
