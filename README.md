@@ -17,6 +17,7 @@ Welcome to my Frontend Web Development repository. Through this repository, I le
   - [TextMate(macOS)](https://macromates.com/)
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Sublime Text](https://www.sublimetext.com/)
+  - [Brackets](https://brackets.io/)
 
 ## [HTML From Scratch](https://github.com/kanishkasubash/frontend-web-development/tree/master/html-crash-course)
 
