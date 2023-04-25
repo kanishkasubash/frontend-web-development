@@ -19,7 +19,6 @@ In this section, I have learned as much about HTML5 that I can. I have created a
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Crash Course</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
