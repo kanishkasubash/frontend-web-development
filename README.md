@@ -4,7 +4,7 @@
 
 Welcome to my Frontend Web Development repository. Through this repository, I learned from scratch to deploy my first full-stack web application. Along the way, I have been learning essential web development concepts needed for now and beyond.
 
-## HTML From scratch
+## HTML From Scratch
 
 ### HTML
 
@@ -32,7 +32,7 @@ In this section, I have learned as much about HTML5 as I can. I have created a s
 </html>
 ```
 
-## CSS From scratch
+## CSS From Scratch
 
 ### CSS
 
@@ -45,3 +45,9 @@ In this section, I have learned as much as possible about CSS. I have looked at 
 ```html
 <link rel="stylesheet" type="text/css" href="css/style.css">
 ```
+
+## JavaScript From Scratch
+
+### Java Script
+
+JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.
