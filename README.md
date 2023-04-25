@@ -76,3 +76,21 @@ Linking an external .css file
 ### JavaScript
 
 JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.
+
+In this section, I have learned the fundamentals of JavaScript including more modern syntax like classes, arrow functions, etc. This is the starting point of my learning JS.
+
+### Internal JS
+Using ```<script></script>``` tags within a document
+
+```html
+<style type="text/javascript">
+    var i = 10;
+</style>
+```
+
+### External JS
+Linking an external .js file
+
+```html
+<script src="js/main.js"></script>
+```
