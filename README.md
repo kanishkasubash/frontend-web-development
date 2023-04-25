@@ -4,7 +4,7 @@
 
 Welcome to my Frontend Web Development repository. Through this repository, I learned from scratch to deploy my first full-stack web application. Along the way, I have been learning essential web development concepts needed for now and beyond.
 
-## What we need to start?
+## What we need to start ?
 
 - A web Browser
   - [Google Chrome](https://www.google.com/chrome/)
