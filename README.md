@@ -41,7 +41,7 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 In this section, I have learned as much as possible about CSS. I have looked at styles, selectors, declarations, etc. I have built a web page with CSS, which I can keep as a resource. I have created a basic website layout. I am using CSS3 but mostly the basics.
 
 ### Internal CSS
-Using ```html <style>``` tags within a document
+Using ```<style></style>``` tags within a document
 
 ```html
 <style type="text/css">
