@@ -5,10 +5,10 @@ CSS stands for "Cascading Stylesheet" and is NOT a programming language. CSS is 
 ### What we need to start?
 
 - A web Browser
-  - Google Chrome
-  - Mozilla Firefox
-  - Safari
-  - Edge
+  - [Google Chrome](https://www.google.com/chrome/)
+  - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+  - [Safari](https://www.apple.com/safari/)
+  - [Edge](https://www.microsoft.com/edge)
  
 - A Text Editor
   - [Notepad++](https://notepad-plus-plus.org/downloads/)
