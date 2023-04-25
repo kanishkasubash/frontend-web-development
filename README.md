@@ -18,7 +18,7 @@ Welcome to my Frontend Web Development repository. Through this repository, I le
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Sublime Text](https://www.sublimetext.com/)
 
-## HTML From Scratch
+## [HTML From Scratch](https://github.com/kanishkasubash/frontend-web-development/tree/master/html-crash-course)
 
 ### HTML
 
@@ -26,7 +26,7 @@ Welcome to my Frontend Web Development repository. Through this repository, I le
 
 In this section, I have learned as much about HTML5 as I can. I have created a sample web page with all of the common HTML5 tags, attributes, semantic markup, etc.
 
-### Basic HTML5 Template
+### Basic HTML Template
 
 ```html
 <!DOCTYPE html>
