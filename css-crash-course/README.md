@@ -10,10 +10,9 @@ CSS stands for "Cascading Stylesheet" and is NOT a programming language. CSS is 
   - Safari
   - Edge
  
- - A Text Editor
+- A Text Editor
   - [Notepad++](https://notepad-plus-plus.org/downloads/)
   - [TextMate(macOS)](https://macromates.com/)
-  - Visual Studio Code
-  - Sublime Text
-  - Atom.io
-  - Bracket
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Sublime Text](https://www.sublimetext.com/)
+
