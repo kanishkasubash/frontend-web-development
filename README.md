@@ -4,6 +4,20 @@
 
 Welcome to my Frontend Web Development repository. Through this repository, I learned from scratch to deploy my first full-stack web application. Along the way, I have been learning essential web development concepts needed for now and beyond.
 
+## What we need to start?
+
+- A web Browser
+  - [Google Chrome](https://www.google.com/chrome/)
+  - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+  - [Safari](https://www.apple.com/safari/)
+  - [Edge](https://www.microsoft.com/edge)
+ 
+- A Text Editor
+  - [Notepad++](https://notepad-plus-plus.org/downloads/)
+  - [TextMate(macOS)](https://macromates.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Sublime Text](https://www.sublimetext.com/)
+
 ## HTML From Scratch
 
 ### HTML
