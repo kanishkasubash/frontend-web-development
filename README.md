@@ -10,7 +10,7 @@ In this section, I have learned as much about HTML5 that I can. I have created a
 
 ### Basic HTML5 Template
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,6 +34,6 @@ In this section, I have learned as much as possible about CSS. I have looked at 
 
 ### External css link
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="css/style.css">
 ```
