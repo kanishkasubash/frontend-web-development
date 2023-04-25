@@ -2,4 +2,4 @@
 
 ## CSS
 
-CSS stands for "Cascading Stylesheet" and **NOT** a programming language. CSS is a styling language used for website layout and design. It can be extended with Sass/Less
+CSS stands for "Cascading Stylesheet" and is NOT a programming language. CSS is a stylistic language used to layout and design web pages. It can be extended with Sass/Less
