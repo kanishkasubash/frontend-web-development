@@ -6,7 +6,7 @@ Welcome to my Frontend Web Development repository. Through this repository, I le
 
 ## What we need to start ?
 
-- A web Browser
+- A Web Browser
   - [Google Chrome](https://www.google.com/chrome/)
   - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
   - [Safari](https://www.apple.com/safari/)
