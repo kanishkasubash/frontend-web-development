@@ -2,9 +2,9 @@
 
 ## How do I learn to code HTML | CSS | JavaScript
 
-Welcome to my Frontend Web Development repository. Through this repository, I learned from scratch to deploy my first full-stack web application. Along the way, I have been learning essential web development concepts needed for now and beyond.
+Welcome to my Frontend Web Development repository. I learned from scratch through this repository to deploy my first web application. Along the way, I have been learning essential web development concepts for now and beyond.
 
-## What we need to start ?
+## What do we need to start?
 
 - A Web Browser
   - [Google Chrome](https://www.google.com/chrome/)
@@ -25,7 +25,7 @@ Welcome to my Frontend Web Development repository. Through this repository, I le
 
 "HTML" stands for Hypertext Markup Language. It is used on the frontend and provides a structure for the web page that we can style with CSS and create interactions with JavaScript.
 
-In this section, I have learned as much about HTML5 as I can. I have created a sample web page with all of the common HTML5 tags, attributes, semantic markup, etc.
+In this section, I have learned as much about HTML5 as possible. I have created a sample web page with all the standard HTML5 tags, attributes, semantic markup, etc.
 
 ### Basic HTML Template
 
@@ -75,7 +75,7 @@ Linking an external .css file
 
 ### JavaScript
 
-JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.
+JavaScript allows you to add interactivity to your pages. Common examples you may have seen on the websites are sliders, click interactions, popups, etc.
 
 In this section, I have learned the fundamentals of JavaScript including more modern syntax like classes, arrow functions, etc. This is the starting point of my learning JS.
 
