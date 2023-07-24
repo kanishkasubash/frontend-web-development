@@ -1,6 +1,6 @@
 ## Learn HTML and CSS
 
-HTML stands for **Hypertext Markup Language**. It is **NOT** a programming language. HTML is a markup language for creating web pages/documents, also the building blocks of the web.
+HTML stands for **Hypertext Markup Language**. It is **NOT** a programming language. HTML is a markup language for creating web pages/documents, also the building blocks of the web. In this, I learn HTML and CSS through building and deploying five awesome projects. It is also fully interactive, with over 75 coding challenges.
 
 1. Build & Deploy First Website
 2. Build a Google.com Clone
@@ -11,18 +11,33 @@ HTML stands for **Hypertext Markup Language**. It is **NOT** a programming langu
 
 ## Finally I Learn
 
-- What is HTML and CSS?                  - Text elements
-- Anchor tags                            - Interactive elements
-- Divs and spans                         - Attributes
-- Nesting                                - Lists
-- Images                                 - CSS basics
-- Classes and Ids                        - Inline vs block
-- Centering elements                     - Borders
-- The box model                          - Margin & padding
-- Inheritance                            - Basic flexbox
-- Designing your page                    - Text shadows
-- Background images                      - Google Fonts
-- Color palettes                         - Gradients
-- Web dev basics                         - Dev Tools
-- How to Google                          - Using GitHub
-- Deployment                             - Using Figma
+- What is HTML and CSS?
+- Anchor tags
+- Divs and spans
+- Nesting
+- Images
+- Classes and Ids
+- Centering elements
+- The box model
+- Inheritance
+- Designing your page
+- Background images
+- Color palettes
+- Web dev basics
+- How to Google
+- Deployment
+- Text elements
+- Interactive elements
+- Attributes
+- Lists
+- CSS basics
+- Inline vs block
+- Borders
+- Margin & padding
+- Basic flexbox
+- Text shadows
+- Google Fonts
+- Gradients
+- Dev Tools
+- Using GitHub
+- Using Figma
