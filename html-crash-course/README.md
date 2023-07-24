@@ -1,6 +1,6 @@
 ## Learn HTML and CSS
 
-HTML stands for **Hypertext Markup Language**. It is **NOT** a programming language. HTML is a markup language for creating web pages/documents, also the building blocks of the web. In this, I learn HTML and CSS through building and deploying five awesome projects. It is also fully interactive, with over 75 coding challenges.
+HTML stands for **Hypertext Markup Language**. It is **NOT** a programming language. HTML is a markup language for creating web pages/documents, also the building blocks of the web. CSS stands for "Cascading Stylesheet" and is NOT a programming language. CSS is a stylistic language used to layout and design web pages. In this, I learn HTML and CSS through building and deploying five awesome projects. It is also fully interactive, with over 75 coding challenges.
 
 1. Build & Deploy First Website
 2. Build a Google.com Clone
