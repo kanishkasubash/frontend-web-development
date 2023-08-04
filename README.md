@@ -92,5 +92,42 @@ Using ```<script></script>``` tags within a document
 Linking an external .js file
 
 ```html
-<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+```
+
+### Basic HTML Template with CSS/JS Links
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Crash Course</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <h1>Hello World</h1>
+</body>
+<script src="js/script.js"></script>
+</html>
+```
+
+### Folder Structure
+
+```
+project folder
+  |
+  |__ css
+  |    |__ style.css
+  |
+  |__ images
+  |
+  |__ js
+  |    |__ script.js
+  |
+  |__ index.html
 ```
