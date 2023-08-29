@@ -116,7 +116,7 @@ Linking an external .js file
 </html>
 ```
 
-### Folder Structure
+### Basic Folder Structure
 
 ```
 project folder
@@ -124,7 +124,9 @@ project folder
   |__ css
   |    |__ style.css
   |
-  |__ images
+  |__ assets
+  |    |__ logo.png
+  |    |__ favicon.ico
   |
   |__ js
   |    |__ script.js
