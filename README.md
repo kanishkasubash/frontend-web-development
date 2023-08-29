@@ -19,7 +19,7 @@ Welcome to my Frontend Web Development repository. I learned from scratch throug
   - [Sublime Text](https://www.sublimetext.com/)
   - [Brackets](https://brackets.io/)
 
-## [HTML From Scratch](https://github.com/kanishkasubash/frontend-web-development/tree/master/html-crash-course)
+## HTML From Scratch
 
 ### HTML
 
@@ -47,7 +47,7 @@ In this section, I have learned as much about HTML5 as possible. I have created 
 </html>
 ```
 
-## [CSS From Scratch](https://github.com/kanishkasubash/frontend-web-development/tree/master/css-crash-course)
+## CSS From Scratch
 
 ### CSS
 
@@ -71,7 +71,7 @@ Linking an external .css file
 <link rel="stylesheet" type="text/css" href="css/style.css">
 ```
 
-## [JavaScript From Scratch](https://github.com/kanishkasubash/frontend-web-development/tree/master/javascript-crash-course)
+## JavaScript From Scratch
 
 ### JavaScript
 
@@ -116,7 +116,7 @@ Linking an external .js file
 </html>
 ```
 
-### Folder Structure
+### Basic Folder Structure
 
 ```
 project folder
@@ -124,7 +124,9 @@ project folder
   |__ css
   |    |__ style.css
   |
-  |__ images
+  |__ assets
+  |    |__ logo.png
+  |    |__ favicon.ico
   |
   |__ js
   |    |__ script.js
