@@ -2,8 +2,12 @@
 
 Learning JavaScript, HTML, and CSS in this Frontend Web Development course. going from having no coding experience to having the essential skills of a Frontend Web Developer. learning various web development technologies and creating a few projects along the way. 
 
-## 💻 [Resources](https://www.youtube.com/watch?v=zJSY8tbf_ys&t=2109s)
+## 💻 Resources
+- [Video](https://www.youtube.com/watch?v=zJSY8tbf_ys&t=2109s)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Practice Problems](https://www.codewars.com)
 
+### 📖 Lesson Plan
 - ⌨️ Introduction
 - ⌨️ Your first JavaScript program
 - ⌨️ What is JavaScript? 
