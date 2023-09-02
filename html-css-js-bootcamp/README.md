@@ -4,7 +4,7 @@ Learning JavaScript, HTML, and CSS in this Frontend Web Development course. goin
 
 ## 💻 Resources
 - [Video](https://www.youtube.com/watch?v=zJSY8tbf_ys&t=2109s)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Documentation](https://developer.mozilla.org/en-US/docs/Web)
 - [Practice Problems](https://www.codewars.com)
 
 ### 📖 Lesson Plan
