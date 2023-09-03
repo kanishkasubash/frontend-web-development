@@ -65,7 +65,7 @@ Create a `package.json` file, run the following command:
 
 TypeScript is transpiled into JavaScript using a compiler. TypeScript has an official compiler which can be installed through npm. Within npm project, run the following command to install the compiler:
 
-`npm install typescript --save-dev`
+`npm install typescript`
 
 - Data Types
 - Functions
