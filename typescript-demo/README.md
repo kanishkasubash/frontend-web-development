@@ -67,6 +67,10 @@ TypeScript is transpiled into JavaScript using a compiler. TypeScript has an off
 
 `npm install typescript`
 
+The compiler can be configured using a `tsconfig.json` file. Create `tsconfig.json` with the recommended settings with:
+
+`npx tsc --init`
+
 - Data Types
 - Functions
 - Generic Funciton
