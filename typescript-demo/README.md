@@ -56,6 +56,8 @@ In summary, TypeScript is a powerful language that adds strong typing and toolin
 
 ## Installing and Creating First Typescript Program
 
+**npm** is installed with **Node.js**. Install Node.js to get npm installed on your computer. Download Node.js from the official Node.js web site: https://nodejs.org
+
 TypeScript is transpiled into JavaScript using a compiler. TypeScript has an official compiler which can be installed through npm. Within npm project, run the following command to install the compiler:
 
 `npm install typescript --save-dev`
