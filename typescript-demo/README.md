@@ -56,20 +56,56 @@ In summary, TypeScript is a powerful language that adds strong typing and toolin
 
 ## Installing and Creating First Typescript Program
 
-Install **Node.js** (if not already installed):
-TypeScript requires Node.js and its package manager, npm, for installation. You can download Node.js from the official website: https://nodejs.org/
+To install TypeScript and create first TypeScript program, need to follow these steps:
 
-Create a `package.json` file, run the following command:
+1. **Install Node.js (if not already installed):**
+   TypeScript requires Node.js and its package manager, npm, for installation. You can download Node.js from the official website: https://nodejs.org/
 
-`npm init -y`
+2. **Install TypeScript globally:**
+   Open your command prompt or terminal and run the following command to install TypeScript globally on your system:
 
-TypeScript is transpiled into JavaScript using a compiler. TypeScript has an official compiler which can be installed through npm. Within npm project, run the following command to install the compiler:
+   ```
+   npm install -g typescript
+   ```
 
-`npm install typescript`
+   This command installs the TypeScript compiler (`tsc`) globally, which you can use to compile TypeScript code into JavaScript.
 
-The compiler can be configured using a `tsconfig.json` file. Create `tsconfig.json` with the recommended settings with:
+3. **Create a TypeScript file:**
+   Create a new directory for your TypeScript project and navigate to it in your terminal. Inside the project directory, create a new TypeScript file with the `.ts` extension. You can use any text editor or integrated development environment (IDE) of your choice to create the file. Let's name it `hello.ts`.
 
-`npx tsc --init`
+4. **Write your first TypeScript code:**
+   Open the `hello.ts` file in your code editor and write a simple TypeScript program. For example:
+
+   ```typescript
+   function sayHello(name: string) {
+     console.log(`Hello, ${name}!`);
+   }
+
+   const personName: string = "John";
+   sayHello(personName);
+   ```
+
+   In this code, we define a `sayHello` function that takes a `name` parameter of type `string` and logs a greeting message to the console.
+
+5. **Compile TypeScript to JavaScript:**
+   In your terminal, navigate to the directory where your `hello.ts` file is located. Then, run the TypeScript compiler to transpile your TypeScript code into JavaScript:
+
+   ```
+   tsc hello.ts
+   ```
+
+   This command will generate a `hello.js` file in the same directory.
+
+6. **Run your TypeScript program:**
+   You can now execute your TypeScript program by running the generated JavaScript file using Node.js. In the terminal, enter the following command:
+
+   ```
+   node hello.js
+   ```
+
+   You should see the output "Hello, John!" printed to the console.
+
+Congratulations! You've successfully installed TypeScript, created your first TypeScript program, and executed it. You can continue to build more complex TypeScript applications by creating additional `.ts` files, using TypeScript's features such as type annotations and interfaces to add type safety, and leveraging TypeScript's tooling and features for your development needs.
 
 - Data Types
 - Functions
