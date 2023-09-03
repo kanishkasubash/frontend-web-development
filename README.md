@@ -1,6 +1,6 @@
 # Frontend Web Development
 
-## How do I learn to code HTML | CSS | JavaScript
+## How do I learn to code HTML | CSS | JavaScript | TypeScript
 
 Welcome to my Frontend Web Development repository. I learned from scratch through this repository to deploy my first web application. Along the way, I have been learning essential web development concepts for now and beyond.
 
@@ -121,12 +121,12 @@ Linking an external .js file
 ```
 project folder
   |
+  |__ assets
+  |    |__ favicon.ico
+  |    |__ logo.png
+  |
   |__ css
   |    |__ style.css
-  |
-  |__ assets
-  |    |__ logo.png
-  |    |__ favicon.ico
   |
   |__ js
   |    |__ script.js
