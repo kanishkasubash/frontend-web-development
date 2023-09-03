@@ -1,6 +1,6 @@
-## ⭐️ TypeScript Course Content ⭐️
+# ⭐️ TypeScript Course Content ⭐️
 
-### What is TypeScript?
+## What is TypeScript?
 
 TypeScript is an open-source programming language developed by Microsoft. It is a statically typed superset of JavaScript, which means that it builds upon JavaScript by adding static typing and other features to the language. TypeScript is designed to make it easier to develop large-scale, maintainable JavaScript applications by catching errors and providing better tooling for developers.
 
@@ -28,7 +28,7 @@ key features of TypeScript:
 
 Developers often choose TypeScript for larger projects where strong typing, tooling, and maintainability are important. It helps reduce the likelihood of runtime errors, improves code readability, and enhances collaboration among team members by providing clear type information.
 
-### Why should use TypeScript?
+## Why should use TypeScript?
 
 Should consider using TypeScript for projects for several compelling reasons:
 
@@ -54,9 +54,9 @@ Should consider using TypeScript for projects for several compelling reasons:
 
 In summary, TypeScript is a powerful language that adds strong typing and tooling support to JavaScript, making it an excellent choice for building robust, maintainable, and scalable applications, especially in large and complex projects where code quality and reliability are paramount. It can improve development workflow, reduce errors, and enhance the overall quality of software.
 
-### Installing and Creating First Typescript Program
+## Installing and Creating First Typescript Program
 
-Within your npm project, run the following command to install the compiler:
+TypeScript is transpiled into JavaScript using a compiler. TypeScript has an official compiler which can be installed through npm. Within npm project, run the following command to install the compiler:
 
 `npm install typescript --save-dev`
 
