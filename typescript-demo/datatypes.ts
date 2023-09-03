@@ -7,9 +7,6 @@ let fullname = `${fname} ${lname}`.toUpperCase();
 console.log(fullname);
 
 /* number data type */
-let age: number;
-age = 25;
-
 let dob: string = "25";
 let date: number = parseInt(dob);
 
@@ -45,6 +42,22 @@ const enum Color {
     Blue
 }
 
-let bg: Color = Color.Green;
+let colorIndex: Color = Color.Green;
 
-console.log(bg);
+console.log(colorIndex);
+
+/* tuple data type */
+
+// Define a tuple to store information about a person: name, age, and whether they are a student (boolean).
+let person: [string, number, boolean];
+
+// Initialize the tuple with values.
+person = ["Alice", 30, true];
+
+// Access elements of the tuple by index.
+const sName: string = person[0];
+const age: number = person[1];
+const isStudent: boolean = person[2];
+
+// Output the values.
+console.log(`Name: ${sName}, Age: ${age}, Student: ${isStudent}`);
