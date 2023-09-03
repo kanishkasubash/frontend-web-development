@@ -54,6 +54,12 @@ Should consider using TypeScript for projects for several compelling reasons:
 
 In summary, TypeScript is a powerful language that adds strong typing and tooling support to JavaScript, making it an excellent choice for building robust, maintainable, and scalable applications, especially in large and complex projects where code quality and reliability are paramount. It can improve development workflow, reduce errors, and enhance the overall quality of software.
 
+### Installing and Creating First Typescript Program
+
+Within your npm project, run the following command to install the compiler:
+
+`npm install typescript --save-dev`
+
 - Data Types
 - Functions
 - Generic Funciton
