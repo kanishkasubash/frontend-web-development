@@ -28,7 +28,10 @@ let isValid: boolean = false;
 
 console.log(isValid);
 
-/* array data type */
+/**
+ * Employee list array
+ * @type {string}
+ */
 let empList: string[];
 empList = ["Emp1", "Emp2", "Emp3", "Emp4"]
 let numList: Array<number>;
@@ -46,7 +49,9 @@ console.log(rep);
 let sum = numList.reduce((acc, num) => acc + num);
 console.log(sum);
 
-/* enum data type */
+/**
+ * Colours { Red, Green, Blue }
+ */
 const enum Color {
     Red,
     Green,
@@ -59,7 +64,10 @@ console.log(colorIndex);
 
 /* tuple data type */
 
-// Define a tuple to store information about a person: name, age, and whether they are a student (boolean).
+/**
+ * Define a tuple to store information about a person: name, age, and whether they are a student (boolean).
+ * @type {tuple}
+ */
 let person: [string, number, boolean];
 
 // Initialize the tuple with values.
