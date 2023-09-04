@@ -28,3 +28,16 @@ function sumArray2(array) {
 exports.sumArray2 = sumArray2;
 console.log(sumArray([6, 2, 5, 2, 6]));
 console.log(sumArray2([6, 2, 5, 2, 6]));
+/**
+ * Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+ * @param fatherAge Current father's age (years)
+ * @param sonAge Current age of his son (years)
+ * @returns Age difference (years)
+ */
+function yearsAgoOrInFuture(fatherAge, sonAge) {
+    return Math.abs(fatherAge - (2 * sonAge));
+}
+const fatherAgeNow = 40;
+const sonAgeNow = 10;
+const result = yearsAgoOrInFuture(fatherAgeNow, sonAgeNow);
+console.log(`The event happened ${result} years ago (or will happen in the future).`);

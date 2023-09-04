@@ -1,8 +1,13 @@
 "use strict";
 /**
  * This is a variable to store a person's  first name.
+ * @type {string}
  */
 let fname = 'kanishka';
+/**
+ * This is a variable to store a person's  last name.
+ * @type {string}
+ */
 let lname = 'Priyashantha';
 let fullname = `${fname} ${lname}`.toUpperCase();
 console.log(fullname);
@@ -10,10 +15,16 @@ console.log(fullname);
 let dob = "25";
 let date = parseInt(dob);
 console.log(date);
-/* boolean data type */
+/**
+ * This is a variable to store a boolean value.
+ * @type {boolean}
+ */
 let isValid = false;
 console.log(isValid);
-/* array data type */
+/**
+ * Employee list array
+ * @type {string}
+ */
 let empList;
 empList = ["Emp1", "Emp2", "Emp3", "Emp4"];
 let numList;
@@ -29,7 +40,10 @@ console.log(sum);
 let colorIndex = 1 /* Color.Green */;
 console.log(colorIndex);
 /* tuple data type */
-// Define a tuple to store information about a person: name, age, and whether they are a student (boolean).
+/**
+ * Define a tuple to store information about a person: name, age, and whether they are a student (boolean).
+ * @type {tuple}
+ */
 let person;
 // Initialize the tuple with values.
 person = ["Alice", 30, true];
