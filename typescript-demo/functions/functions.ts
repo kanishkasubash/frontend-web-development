@@ -34,7 +34,7 @@ console.log(sumArray2([6, 2, 5, 2, 6]));
  * Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
  * @param fatherAge Current father's age (years)
  * @param sonAge Current age of his son (years)
- * @returns Age difference (years)
+ * @returns Age twice as old (years)
  */
 function yearsAgoOrInFuture(fatherAge: number, sonAge: number): number {
     return Math.abs(fatherAge - (2 * sonAge));
