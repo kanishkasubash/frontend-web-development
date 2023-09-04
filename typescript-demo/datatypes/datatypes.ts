@@ -1,7 +1,13 @@
 /**
  * This is a variable to store a person's  first name.
+ * @type {string}
  */
 let fname: string = 'kanishka';
+
+/**
+ * This is a variable to store a person's  last name.
+ * @type {string}
+ */
 let lname: string = 'Priyashantha';
 
 let fullname = `${fname} ${lname}`.toUpperCase();
@@ -14,7 +20,10 @@ let date: number = parseInt(dob);
 
 console.log(date);
 
-/* boolean data type */
+/**
+ * This is a variable to store a boolean value.
+ * @type {boolean}
+ */
 let isValid: boolean = false;
 
 console.log(isValid);
