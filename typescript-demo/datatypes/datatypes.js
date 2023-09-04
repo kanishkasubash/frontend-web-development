@@ -1,5 +1,7 @@
 "use strict";
-/* string data type */
+/**
+ * This is a variable to store a person's  first name.
+ */
 let fname = 'kanishka';
 let lname = 'Priyashantha';
 let fullname = `${fname} ${lname}`.toUpperCase();

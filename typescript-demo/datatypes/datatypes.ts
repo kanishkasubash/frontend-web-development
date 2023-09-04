@@ -1,4 +1,6 @@
-/* string data type */
+/**
+ * This is a variable to store a person's  first name.
+ */
 let fname: string = 'kanishka';
 let lname: string = 'Priyashantha';
 
