@@ -49,5 +49,3 @@ const sonAgeNow = 10;
 const result = yearsAgoOrInFuture(fatherAgeNow, sonAgeNow);
 
 console.log(`The event happened ${result} years ago (or will happen in the future).`);
-
-/* Name */
