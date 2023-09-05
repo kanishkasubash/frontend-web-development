@@ -107,7 +107,97 @@ To install TypeScript and create first TypeScript program, need to follow these 
 
 Congratulations! You've successfully installed TypeScript, created your first TypeScript program, and executed it. You can continue to build more complex TypeScript applications by creating additional `.ts` files, using TypeScript's features such as type annotations and interfaces to add type safety, and leveraging TypeScript's tooling and features for your development needs.
 
-- Data Types
+## Data Types
+
+In TypeScript, data types play a crucial role in defining the kind of values that variables and parameters can hold. TypeScript provides a static type system that allows you to specify data types for variables, function parameters, return values, and more. Here's an explanation of some common TypeScript data types:
+
+1. **Boolean (boolean):**
+   - Represents a true or false value.
+   - Example: `let isDone: boolean = false;`
+
+2. **Number (number):**
+   - Represents both integer and floating-point numbers.
+   - Example: `let count: number = 42;`
+
+3. **String (string):**
+   - Represents textual data, such as words and sentences.
+   - Example: `let message: string = "Hello, TypeScript!";`
+
+4. **Array (Array<T> or T[]):**
+   - Represents an ordered collection of values of a specific type.
+   - Example: `let numbers: number[] = [1, 2, 3];`
+
+5. **Tuple:**
+   - Represents an array-like structure where each element can have a different data type and a fixed, known length.
+   - Example: `let person: [string, number] = ["Alice", 30];`
+
+6. **Enum:**
+   - Allows you to define a set of named constants with underlying numeric values.
+   - Example:
+     ```typescript
+     enum Color {
+       Red = 1,
+       Green = 2,
+       Blue = 3,
+     }
+     let color: Color = Color.Green;
+     ```
+
+7. **Any (any):**
+   - Represents a dynamic type that can hold values of any data type.
+   - Use it when you don't know or want to specify the type.
+   - Example: `let dynamicValue: any = "Hello, Any!";`
+
+8. **Void (void):**
+   - Represents the absence of a value or the return type of functions that do not return a value.
+   - Example:
+     ```typescript
+     function logMessage(message: string): void {
+       console.log(message);
+     }
+     ```
+
+9. **Null and Undefined (null and undefined):**
+   - Represents the absence of a value or a variable that hasn't been assigned a value yet.
+   - Example:
+     ```typescript
+     let nullValue: null = null;
+     let undefinedValue: undefined = undefined;
+     ```
+
+10. **Never (never):**
+    - Represents a value that never occurs (e.g., a function that always throws an error or never returns).
+    - Often used in function return types that never complete.
+    - Example:
+      ```typescript
+      function throwError(message: string): never {
+        throw new Error(message);
+      }
+      ```
+
+11. **Object (object):**
+    - Represents any non-primitive data type.
+    - Not very specific and is often better to use more precise types.
+    - Example: `let user: object = { name: "Alice", age: 30 };`
+
+12. **Union (|):**
+    - Allows a variable to hold values of multiple data types.
+    - Example: `let value: string | number = "Hello";`
+
+13. **Intersection (&):**
+    - Combines multiple data types into one, where a value must satisfy all specified types.
+    - Example:
+      ```typescript
+      interface Dog {
+        bark(): void;
+      }
+      interface Bird {
+        fly(): void;
+      }
+      let pet: Dog & Bird; // pet can bark and fly
+      ```
+
+These are some of the fundamental data types in TypeScript. They provide a way to explicitly specify the kinds of values that your variables and functions can work with, which helps catch type-related errors at compile-time and enhances code reliability and maintainability.
 
 ## Functions
 
