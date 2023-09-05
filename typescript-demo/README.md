@@ -154,6 +154,8 @@ Arrow functions are typically more concise and are often used for functions with
 - Arrow functions cannot be hoisted, so they must be defined before they are used in your code.
 
 Choosing between a named function and an arrow function depends on your specific use case. Named functions are often preferred for larger and more complex functions, while arrow functions are favored for shorter and more straightforward functions, especially when you want to maintain a lexical `this` context.
+
+
 - Generic Funciton
 - Classes
 - Interfaces
