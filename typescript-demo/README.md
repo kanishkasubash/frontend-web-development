@@ -360,7 +360,129 @@ In this example:
 
 Generic functions are powerful tools for creating reusable code that can work with different data types while preserving type safety. They are commonly used in libraries and frameworks to create flexible and generic algorithms.
 
-- Classes
-- Interfaces
+## Classes
+
+In TypeScript, classes provide a way to define blueprints for creating objects with similar properties and methods. Classes are a fundamental concept in object-oriented programming (OOP) and are used to model real-world entities and their behavior. Here's an explanation of TypeScript classes:
+
+### Defining a Class
+
+To define a class in TypeScript, you use the `class` keyword followed by the class name and a code block containing the class's properties and methods.
+
+```typescript
+class Person {
+  // Properties
+  firstName: string;
+  lastName: string;
+  
+  // Constructor
+  constructor(firstName: string, lastName: string) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  // Method
+  greet() {
+    console.log(`Hello, ${this.firstName} ${this.lastName}!`);
+  }
+}
+```
+
+In this example:
+
+- `Person` is the name of the class.
+- `firstName` and `lastName` are properties of the class, representing a person's first and last names.
+- The `constructor` is a special method that initializes the object's properties when a new object is created.
+- `greet` is a method that can be called on instances of the `Person` class.
+
+### Creating Instances (Objects)
+
+To create instances (objects) of a class, you use the `new` keyword followed by the class name and constructor arguments.
+
+```typescript
+const alice = new Person("Alice", "Johnson");
+const bob = new Person("Bob", "Smith");
+
+alice.greet(); // Output: Hello, Alice Johnson!
+bob.greet(); // Output: Hello, Bob Smith!
+```
+
+Here, `alice` and `bob` are instances of the `Person` class, each with their own set of `firstName` and `lastName` properties.
+
+### Access Modifiers
+
+TypeScript provides access modifiers to control the visibility of class members (properties and methods). The three main access modifiers are:
+
+- `public`: Members are accessible from anywhere.
+- `private`: Members are only accessible within the class.
+- `protected`: Members are accessible within the class and its subclasses.
+
+You can specify access modifiers before class members to define their visibility. For example:
+
+```typescript
+class Person {
+  // Properties with access modifiers
+  private firstName: string;
+  private lastName: string;
+  
+  // Constructor
+  constructor(firstName: string, lastName: string) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  // Method with an access modifier
+  public greet() {
+    console.log(`Hello, ${this.firstName} ${this.lastName}!`);
+  }
+}
+```
+
+### Inheritance
+
+Classes can inherit properties and methods from other classes using the `extends` keyword. This is known as inheritance and is a fundamental concept in OOP.
+
+```typescript
+class Student extends Person {
+  studentId: number;
+  
+  constructor(firstName: string, lastName: string, studentId: number) {
+    super(firstName, lastName); // Call the parent class constructor
+    this.studentId = studentId;
+  }
+
+  study() {
+    console.log(`${this.firstName} is studying.`);
+  }
+}
+```
+
+In this example, the `Student` class extends the `Person` class, inheriting its properties and methods. The `super` keyword is used to call the parent class's constructor.
+
+### TypeScript Interfaces
+
+You can also implement TypeScript interfaces in classes to ensure that a class adheres to a specific contract. This helps with code consistency and type checking.
+
+```typescript
+interface Shape {
+  area(): number;
+}
+
+class Circle implements Shape {
+  radius: number;
+
+  constructor(radius: number) {
+    this.radius = radius;
+  }
+
+  area() {
+    return Math.PI * this.radius ** 2;
+  }
+}
+```
+
+In this example, the `Circle` class implements the `Shape` interface, which requires it to have an `area` method.
+
+These are the fundamental concepts of classes in TypeScript. They enable you to create structured and reusable code for modeling objects and their behavior in a type-safe manner. Classes are an essential part of building complex applications in TypeScript, especially in the context of object-oriented programming.
+
 - Decorators
 - ESModules
