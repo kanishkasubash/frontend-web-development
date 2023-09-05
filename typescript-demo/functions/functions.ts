@@ -49,3 +49,16 @@ const sonAgeNow = 10;
 const result = yearsAgoOrInFuture(fatherAgeNow, sonAgeNow);
 
 console.log(`The event happened ${result} years ago (or will happen in the future).`);
+
+/**
+ * Generic function that takes two parameters of the same type Type.
+ * It returns a tuple containing the swapped values.
+ * @param a First Value
+ * @param b Second Value
+ * @returns Tuple containing the swapped values [b, a]
+ */
+function swap<Type>(a: Type, b: Type): [Type, Type] {
+    return [b, a];
+}
+
+const resultSwap = swap(10, 20); // result is [20, 10]

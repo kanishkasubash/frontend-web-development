@@ -297,7 +297,69 @@ In TypeScript, parameter types refer to the data types assigned to the parameter
 
 Understanding and correctly specifying parameter types in TypeScript is essential for writing type-safe code and preventing type-related errors during development. It helps ensure that functions receive the expected inputs and produce the desired outputs.
 
-- Generic Funciton
+## Generic Funciton
+
+A generic function in TypeScript is a function that can work with different data types while maintaining type safety. Generic functions allow you to write code that is more flexible and reusable because it can adapt to various input types without sacrificing type checking. TypeScript uses generics to achieve this.
+
+Here's the basic syntax of a generic function:
+
+```typescript
+function functionName<Type>(parameter: Type): Type {
+  // Function implementation
+  return parameter;
+}
+```
+
+In this syntax:
+
+- `functionName` is the name of the generic function.
+- `<T>` is a type parameter enclosed in angle brackets (`<>`). You can use any valid identifier instead of `T`, but `T` is a common convention for type parameters.
+- `parameter` is a parameter of type `T`.
+- The function returns a value of type `T`.
+
+Here's an example of a generic function that swaps the values of two variables:
+
+```typescript
+function swap<Type>(a: Type, b: Type): [Type, Type] {
+  return [b, a];
+}
+
+const result = swap(10, 20); // result is [20, 10]
+```
+
+In this example:
+
+- `swap` is a generic function that takes two parameters of the same type `Type`.
+- It returns a tuple containing the swapped values.
+
+You can use generic functions with various data types, including primitive types, objects, and custom types. TypeScript infers the appropriate type based on the argument you pass when calling the function.
+
+Here's an example using a custom type:
+
+```typescript
+interface Person {
+  name: string;
+  age: number;
+}
+
+function printPerson<Type extends Person>(person: Type): void {
+  console.log(`Name: ${person.name}, Age: ${person.age}`);
+}
+
+const alice: Person = { name: "Alice", age: 30 };
+const bob: Person = { name: "Bob", age: 25 };
+
+printPerson(alice); // Output: Name: Alice, Age: 30
+printPerson(bob); // Output: Name: Bob, Age: 25
+```
+
+In this example:
+
+- `printPerson` is a generic function that takes an object of type `Type`, where `Type` extends the `Person` interface.
+- It logs the name and age properties of the person object.
+
+Generic functions are powerful tools for creating reusable code that can work with different data types while preserving type safety. They are commonly used in libraries and frameworks to create flexible and generic algorithms.
+
 - Classes
 - Interfaces
 - Decorators
