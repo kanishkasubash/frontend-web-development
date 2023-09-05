@@ -199,7 +199,7 @@ In TypeScript, data types play a crucial role in defining the kind of values tha
 
 These are some of the fundamental data types in TypeScript. They provide a way to explicitly specify the kinds of values that your variables and functions can work with, which helps catch type-related errors at compile-time and enhances code reliability and maintainability.
 
-## Functions
+## Functions & Parameters
 
 In TypeScript, you can define functions using two main syntax styles: named functions and arrow functions. These two styles have some differences in terms of how they are defined and how they behave. Let's explore both of them:
 
@@ -245,6 +245,57 @@ Arrow functions are typically more concise and are often used for functions with
 
 Choosing between a named function and an arrow function depends on your specific use case. Named functions are often preferred for larger and more complex functions, while arrow functions are favored for shorter and more straightforward functions, especially when you want to maintain a lexical `this` context.
 
+In TypeScript, parameter types refer to the data types assigned to the parameters of a function or method. Parameter types help define what kind of values or arguments a function can accept and enforce type checking during development. Here are some key points to understand about parameter types in TypeScript:
+
+1. **Type Annotations:** Parameter types are declared using type annotations, where you use a colon (`:`) followed by the data type.
+
+2. **Type Inference:** TypeScript can often infer parameter types if you don't explicitly provide type annotations. For example, in some cases, TypeScript can figure out that a parameter is of type `string` or `number` based on how it's used within the function.
+
+   ```typescript
+   function greet(name, age) {
+     console.log(`Hello, ${name}! You are ${age} years old.`);
+   }
+   ```
+
+   In this case, TypeScript would still infer that `name` should be a `string` and `age` should be a `number` based on the usage within the function body.
+
+3. **Optional Parameters:** You can make parameters optional by adding a question mark (`?`) after the parameter name and type. Optional parameters can be omitted when calling the function.
+
+   ```typescript
+   function greet(name: string, age?: number): void {
+     if (age === undefined) {
+       console.log(`Hello, ${name}!`);
+     } else {
+       console.log(`Hello, ${name}! You are ${age} years old.`);
+     }
+   }
+
+   greet("Alice"); // Omitting 'age' is allowed
+   greet("Bob", 30); // Providing 'age' is also allowed
+   ```
+
+4. **Default Parameters:** You can provide default values for parameters using the assignment operator (`=`). If a value is not provided when calling the function, the default value will be used.
+
+   ```typescript
+   function greet(name: string, age: number = 25): void {
+     console.log(`Hello, ${name}! You are ${age} years old.`);
+   }
+
+   greet("Alice"); // 'age' defaults to 25
+   greet("Bob", 30); // 'age' is explicitly provided as 30
+   ```
+
+5. **Rest Parameters:** You can use rest parameters to capture a variable number of arguments into an array. The rest parameter is denoted by three dots (`...`) followed by the parameter name and type.
+
+   ```typescript
+   function sum(...numbers: number[]): number {
+     return numbers.reduce((acc, num) => acc + num, 0);
+   }
+
+   console.log(sum(1, 2, 3, 4, 5)); // Output: 15
+   ```
+
+Understanding and correctly specifying parameter types in TypeScript is essential for writing type-safe code and preventing type-related errors during development. It helps ensure that functions receive the expected inputs and produce the desired outputs.
 
 - Generic Funciton
 - Classes
