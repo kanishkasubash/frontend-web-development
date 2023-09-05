@@ -1,4 +1,8 @@
-/* find elemrnt using indexOf method */
+/**
+ * Find elemrnt using indexOf method
+ * @param haystack Given array {any[]}
+ * @returns Message : found the needle at position (position) {String}
+ */
 function findNeedle(haystack: any[]): string {
     return `found the needle at position ${haystack.indexOf('needle')}`;
 }
@@ -45,3 +49,5 @@ const sonAgeNow = 10;
 const result = yearsAgoOrInFuture(fatherAgeNow, sonAgeNow);
 
 console.log(`The event happened ${result} years ago (or will happen in the future).`);
+
+/* Name */

@@ -108,7 +108,52 @@ To install TypeScript and create first TypeScript program, need to follow these 
 Congratulations! You've successfully installed TypeScript, created your first TypeScript program, and executed it. You can continue to build more complex TypeScript applications by creating additional `.ts` files, using TypeScript's features such as type annotations and interfaces to add type safety, and leveraging TypeScript's tooling and features for your development needs.
 
 - Data Types
-- Functions
+
+## Functions
+
+In TypeScript, you can define functions using two main syntax styles: named functions and arrow functions. These two styles have some differences in terms of how they are defined and how they behave. Let's explore both of them:
+
+### Named Function:
+
+A named function in TypeScript is defined using the `function` keyword followed by the function name and a parameter list. Named functions are typically used for traditional function declarations.
+
+```typescript
+function add(a: number, b: number): number {
+  return a + b;
+}
+```
+
+Here's an explanation of the components of a named function:
+
+- `function`: This is the keyword used to declare a function in TypeScript.
+- `add`: This is the name of the function.
+- `(a: number, b: number)`: These are the parameters of the function along with their types.
+- `: number`: This specifies the return type of the function.
+
+Named functions can be called by their name and are hoisted, meaning you can use them before they are defined in your code.
+
+### Arrow Function:
+
+An arrow function in TypeScript is defined using the `() =>` syntax and is also known as a "fat arrow" function. Arrow functions are typically used for concise function expressions.
+
+```typescript
+const add = (a: number, b: number): number => a + b;
+```
+
+Here's an explanation of the components of an arrow function:
+
+- `const add`: This assigns the function to a variable named `add`.
+- `(a: number, b: number)`: These are the parameters of the function along with their types.
+- `: number`: This specifies the return type of the function.
+- `=>`: This is the fat arrow, indicating the start of the function body.
+- `a + b`: This is the expression inside the function body, which is evaluated and returned.
+
+Arrow functions are typically more concise and are often used for functions with simple expressions. They also have some behavior differences compared to named functions:
+
+- Arrow functions do not have their own `this` binding, making them useful in certain contexts like callbacks or event handlers.
+- Arrow functions cannot be hoisted, so they must be defined before they are used in your code.
+
+Choosing between a named function and an arrow function depends on your specific use case. Named functions are often preferred for larger and more complex functions, while arrow functions are favored for shorter and more straightforward functions, especially when you want to maintain a lexical `this` context.
 - Generic Funciton
 - Classes
 - Interfaces
