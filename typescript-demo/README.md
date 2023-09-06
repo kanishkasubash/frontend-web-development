@@ -483,6 +483,3 @@ class Circle implements Shape {
 In this example, the `Circle` class implements the `Shape` interface, which requires it to have an `area` method.
 
 These are the fundamental concepts of classes in TypeScript. They enable you to create structured and reusable code for modeling objects and their behavior in a type-safe manner. Classes are an essential part of building complex applications in TypeScript, especially in the context of object-oriented programming.
-
-- Decorators
-- ESModules
