@@ -21,7 +21,6 @@ Here are the key concepts and properties associated with CSS Flexbox:
    ```
 
 | Flex Container  | Flex Item |
-| Properties  | Properties |
 | ------------- | ------------- |
 | flex-direction  | order  |
 | flex-wrap  | flex-grow  |
