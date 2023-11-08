@@ -20,14 +20,14 @@ Here are the key concepts and properties associated with CSS Flexbox:
    </div>
    ```
 
-| Flex Container Properties  | Flex Item Properties |
-| ------------- | ------------- |
-| flex-direction  | order  |
-| flex-wrap  | flex-grow  |
-| flex-flow  | flex-shrinks  |
-| justify-content  | flex-basis  |
-| align-items  | align-self  |
-| align-content  |   |
+    | Flex Container Properties  | Flex Item Properties |
+    | ------------- | ------------- |
+    | flex-direction  | order  |
+    | flex-wrap  | flex-grow  |
+    | flex-flow  | flex-shrinks  |
+    | justify-content  | flex-basis  |
+    | align-items  | align-self  |
+    | align-content  |   |
 
 3. **Main and Cross Axis**: Flexbox operates in two axes: the main axis and the cross axis. The main axis is defined by the `flex-direction` property and is the direction in which flex items are laid out, while the cross axis is perpendicular to the main axis.
 
