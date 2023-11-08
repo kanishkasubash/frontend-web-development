@@ -84,11 +84,11 @@ Here are the key concepts and properties associated with CSS Flexbox:
 
 10. **Flex Flow**: You can combine the two properties `flex-direction` and `flex-wrap` into the `flex-flow` shorthand. The first value specified is `flex-direction` and the second value is `flex-wrap`. The first value to one of the allowable values for `flex-direction` - `row`, `row-reverse`, `column` or `column-reverse`, and also change the second to `wrap` and `nowrap`.
 
-  ```css
-    .flex-container {
-      display: flex;
-      flex-flow: row wrap;
-    }
-  ```
+   ```css
+   .flex-container {
+     display: flex;
+     flex-flow: row wrap;
+   }
+   ```
 
 CSS Flexbox is a powerful layout model that simplifies the creation of responsive and complex layouts, and it's widely used in web development to create more efficient and predictable designs. It works well for both one-dimensional (rows or columns) and two-dimensional layouts.
