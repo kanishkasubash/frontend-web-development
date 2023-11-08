@@ -87,7 +87,7 @@ Here are the key concepts and properties associated with CSS Flexbox:
    ```css
    .flex-container {
      display: flex;
-     flex-flow: row wrap;
+     flex-flow: row wrap; /* flex-direction, flex-wrap */
    }
    ```
 
