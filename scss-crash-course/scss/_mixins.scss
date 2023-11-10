@@ -9,6 +9,17 @@
     line-height: 1.2;
 }
 
+/* Nav Links Text color */
+@mixin set-link-text-color($color, $hover) {
+    a {
+        color: set-text-color($color);
+
+        &:hover {
+            color: $hover;
+        }
+    }
+}
+
 /* Background & Text color */
 @mixin set-background-text-color($color) {
     background-color: $color;

@@ -16,10 +16,9 @@
             }
         }
 
-        a:hover {
-            color: $secondary-color;
-        }
-    }    
+        /* Set Nav link text color */
+        @include set-link-text-color($primary-color, $secondary-color);
+    }
 
     &-content {
         height: 100%;
