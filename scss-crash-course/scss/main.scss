@@ -1,9 +1,15 @@
-@import 'variables';
-@import 'functions';
-@import 'mixins';
-@import 'placeholders';
-@import 'base';
-@import 'typography';
-@import 'utilities';
-@import 'buttons';
-@import 'layout';
+@import 
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins',
+    'abstracts/placeholders';
+
+@import
+    'base/reset',
+    'base/typography',
+    'base/helpers',
+    'base/utilities';
+
+@import 'components/buttons';
+
+@import 'layout/header';
