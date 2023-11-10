@@ -1,6 +1,6 @@
 # Frontend Web Development
 
-## How do I learn to code HTML | CSS | SCSS/SASS | JavaScript | TypeScript
+## HTML | CSS | SCSS/SASS | JavaScript | TypeScript
 
 Welcome to my Frontend Web Development repository. I learned from scratch through this repository to deploy my first web application. Along the way, I have been learning essential web development concepts for now and beyond.
 
@@ -18,6 +18,10 @@ Welcome to my Frontend Web Development repository. I learned from scratch throug
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Sublime Text](https://www.sublimetext.com/)
   - [Brackets](https://brackets.io/)
+
+- Node.js 
+  
+  open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser. [https://nodejs.org](https://nodejs.org/en)
 
 ## HTML From Scratch
 
