@@ -2,22 +2,16 @@
 .showcase {
     @include set-background-text-color($primary-color);
     height: 800px;
-
+    
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-top: 15px;
 
         ul {
-            display: flex;
-
-            li {
-                padding: 15px;
-            }
+            display: none;
         }
-
-        /* Set Nav link text color */
-        @include set-link-text-color($primary-color, $secondary-color);
     }
 
     &-content {
@@ -41,6 +35,23 @@
 @include respond-to("md") {
     .showcase {
         height: 600px;
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            ul {
+                display: flex;
+    
+                li {
+                    padding: 15px;
+                }
+            }
+    
+            /* Set Nav link text color */
+            @include set-link-text-color($primary-color, $secondary-color);
+        }
 
         &-content {
             flex-direction: row;
