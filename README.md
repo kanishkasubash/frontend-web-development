@@ -77,6 +77,41 @@ Linking an external .css file
 
 SCSS, which stands for Sassy CSS, is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). It is a superset of CSS3, meaning that all valid CSS3 code is also valid SCSS, but SCSS provides additional features and enhancements.
 
+To run SCSS on your computer, you'll need to compile it into regular CSS, as browsers don't understand SCSS directly. Here are the general steps:
+
+1. **Install a Sass Compiler:**
+   - Before you start, you need to have a Sass compiler installed on your computer. There are various ways to install a compiler. You can use npm (Node Package Manager) if you have Node.js installed, or you can use standalone applications.
+
+   - If you have Node.js, you can install the Sass compiler globally using the following command in your terminal or command prompt:
+
+     ```bash
+     npm install -g sass
+     ```
+
+2. **Compile SCSS to CSS:**
+   - Once you have the Sass compiler installed, navigate to the directory containing your SCSS file in the terminal or command prompt.
+
+   - Use the following command to compile the SCSS file into CSS:
+
+     ```bash
+     sass input.scss output.css
+     ```
+
+     Replace `input.scss` with the name of your SCSS file and `output.css` with the desired name for your compiled CSS file.
+
+   - Alternatively, you can watch for changes in your SCSS file and automatically compile it when changes occur. Use the following command:
+
+     ```bash
+     sass --watch input.scss:output.css
+     ```
+
+3. **Link Compiled CSS in HTML:**
+   - Once the SCSS is compiled into CSS, link the compiled CSS file in your HTML file, just like you would with a regular CSS file:
+
+     ```html
+     <link rel="stylesheet" type="text/css" href="output.css">
+     ```
+
 ## JavaScript From Scratch
 
 ### JavaScript
