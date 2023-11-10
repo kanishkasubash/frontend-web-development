@@ -27,8 +27,14 @@
 }
 
 /* Media Queries */
-@mixin mobile {
+/* @mixin mobile {
     @media(max-width: 768px) {
+        @content;
+    }
+} */
+/* Mobile first approach*/
+@mixin respond-to($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
         @content;
     }
 }

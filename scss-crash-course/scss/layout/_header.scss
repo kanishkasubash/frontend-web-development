@@ -1,7 +1,7 @@
 /* header*/
 .showcase {
     @include set-background-text-color($primary-color);
-    height: 600px;
+    height: 800px;
 
     nav {
         display: flex;
@@ -23,27 +23,31 @@
     &-content {
         height: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;        
+        text-align: center;
+        margin-top: 30px;
 
         h1 {
             @include heading-styles;
-        }        
-    }    
+        }
+
+        img {
+            margin-top: 20px;
+        }
+    }
 }
 
-@include mobile {
+@include respond-to("md") {
     .showcase {
-        height: 800px;
+        height: 600px;
 
         &-content {
-            flex-direction: column;
-            text-align: center;
-            margin-top: 30px;
+            flex-direction: row;
 
             img {
-                margin-top: 20px;
+                margin-top: 0;
             }
         }
-    }    
+    }
 }

@@ -8,4 +8,13 @@ $white: #fff;
 $font-stack: Arial, Helvetica, sans-serif;
 
 /* Container's maximum width */
-$max-width: 1180px
+$max-width: 1180px;
+
+/* Breakpoints */
+$breakpoints: (
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "2xl": "1536px"
+);
