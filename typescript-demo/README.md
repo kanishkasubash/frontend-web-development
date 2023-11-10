@@ -103,7 +103,7 @@ To install TypeScript and create first TypeScript program, need to follow these 
    node hello.js
    ```
 
-   You should see the output "Hello, John!" printed to the console.
+   You should see the output `Hello, John!` printed to the console.
 
 Congratulations! You've successfully installed TypeScript, created your first TypeScript program, and executed it. You can continue to build more complex TypeScript applications by creating additional `.ts` files, using TypeScript's features such as type annotations and interfaces to add type safety, and leveraging TypeScript's tooling and features for your development needs.
 

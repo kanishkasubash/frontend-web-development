@@ -133,3 +133,53 @@ project folder
   |
   |__ index.html
 ```
+
+## TypeScript From Scratch
+
+### TypeScript
+
+TypeScript is an open-source programming language developed by Microsoft. It is a statically typed superset of JavaScript, which means that it builds upon JavaScript by adding static typing and other features to the language. TypeScript is designed to make it easier to develop large-scale, maintainable JavaScript applications by catching errors and providing better tooling for developers.
+
+1. **Install TypeScript globally:**
+   Open your command prompt or terminal and run the following command to install TypeScript globally on your system:
+
+   ```
+   npm install -g typescript
+   ```
+
+   This command installs the TypeScript compiler (`tsc`) globally, which you can use to compile TypeScript code into JavaScript.
+
+2. **Create a TypeScript file:**
+   Create a new directory for your TypeScript project and navigate to it in your terminal. Inside the project directory, create a new TypeScript file with the `.ts` extension. You can use any text editor or integrated development environment (IDE) of your choice to create the file. Let's name it `hello.ts`.
+
+3. **Write your first TypeScript code:**
+   Open the `hello.ts` file in your code editor and write a simple TypeScript program. For example:
+
+   ```typescript
+   function sayHello(name: string) {
+     console.log(`Hello, ${name}!`);
+   }
+
+   const personName: string = "John";
+   sayHello(personName);
+   ```
+
+   In this code, we define a `sayHello` function that takes a `name` parameter of type `string` and logs a greeting message to the console.
+
+4. **Compile TypeScript to JavaScript:**
+   In your terminal, navigate to the directory where your `hello.ts` file is located. Then, run the TypeScript compiler to transpile your TypeScript code into JavaScript:
+
+   ```
+   tsc hello.ts
+   ```
+
+   This command will generate a `hello.js` file in the same directory.
+
+5. **Run your TypeScript program:**
+   You can now execute your TypeScript program by running the generated JavaScript file using Node.js. In the terminal, enter the following command:
+
+   ```
+   node hello.js
+   ```
+
+   You should see the output `Hello, John!` printed to the console.
