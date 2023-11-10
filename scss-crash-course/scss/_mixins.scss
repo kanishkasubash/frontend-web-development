@@ -1,0 +1,16 @@
+/* Typography mixins */
+@mixin body-styles {
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+@mixin heading-styles {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+/* Background & Text color */
+@mixin set-background-text-color($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}

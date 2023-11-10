@@ -14,14 +14,18 @@ html {
 }
 
 body {
-    background-color: $light-color;
-    font-family: $font-stack;
-    line-height: 1.6;
+    background-color: $light-color;    
+    @include body-styles;    
 }
 
-.container {
-    max-width: $lg;
-    margin: 0 auto;
-    padding: 0 30px;
-    overflow: auto;
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
 }

@@ -1,6 +1,38 @@
 /* header*/
 .showcase {
-    background-color: $primary-color;
-    color: $white;
+    @include set-background-text-color($primary-color);
     height: 600px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+
+            li {
+                padding: 15px;
+            }
+        }
+
+        a:hover {
+            color: $secondary-color;
+        }
+    }    
+
+    &-content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            @include heading-styles;
+        }
+
+        p {
+            margin: 20px 0;
+        }
+    }
 }

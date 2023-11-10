@@ -1,0 +1,11 @@
+%button-styles {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(.98);
+    }
+}
