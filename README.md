@@ -1,6 +1,6 @@
 # Frontend Web Development
 
-## How do I learn to code HTML | CSS | JavaScript | TypeScript
+## How do I learn to code HTML | CSS | SCSS/SASS | JavaScript | TypeScript
 
 Welcome to my Frontend Web Development repository. I learned from scratch through this repository to deploy my first web application. Along the way, I have been learning essential web development concepts for now and beyond.
 
@@ -70,6 +70,12 @@ Linking an external .css file
 ```html
 <link rel="stylesheet" type="text/css" href="css/style.css">
 ```
+
+## SCSS From Scratch
+
+### SCSS
+
+SCSS, which stands for Sassy CSS, is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). It is a superset of CSS3, meaning that all valid CSS3 code is also valid SCSS, but SCSS provides additional features and enhancements.
 
 ## JavaScript From Scratch
 
