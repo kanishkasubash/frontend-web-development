@@ -25,3 +25,10 @@
     background-color: $color;
     color: set-text-color($color);
 }
+
+/* Media Queries */
+@mixin mobile {
+    @media(max-width: 768px) {
+        @content;
+    }
+}
