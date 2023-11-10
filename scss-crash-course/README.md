@@ -114,6 +114,8 @@ To run SCSS on your computer, you'll need to compile it into regular CSS, as bro
 
      ```bash
      sass --watch input.scss:output.css
+
+     sass --watch scss/style.scss css/style.css
      ```
 
 3. **Link Compiled CSS in HTML:**
@@ -127,5 +129,9 @@ To run SCSS on your computer, you'll need to compile it into regular CSS, as bro
    - For larger projects, you might want to integrate SCSS compilation into your build process using build tools like webpack, Gulp, or Grunt. These tools can automate the compilation process and offer additional features for managing your project.
 
    - Install the necessary plugins for your preferred build tool, and configure it to compile SCSS files as part of your build process.
+
+   - Live Sass Compiler Vscode extention.
+
+   [https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 
 By following these steps, you can compile SCSS into CSS and use the compiled CSS in your web project. Keep in mind that if you're using a framework like React or Angular, there are often specific tools and configurations for handling styles, so be sure to check the documentation for those frameworks.
