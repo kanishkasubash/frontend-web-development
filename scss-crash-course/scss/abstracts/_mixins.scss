@@ -26,13 +26,7 @@
     color: set-text-color($color);
 }
 
-/* Media Queries */
-/* @mixin mobile {
-    @media(max-width: 768px) {
-        @content;
-    }
-} */
-/* Mobile first approach*/
+/* Media Query Mobile first approach*/
 @mixin respond-to($breakpoint) {
     @media (min-width: map-get($breakpoints, $breakpoint)) {
         @content;
