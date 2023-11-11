@@ -1,0 +1,37 @@
+body {
+    background: #333;
+}
+
+.box {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* animation: 
+        name 
+        duration 
+        timing-function 
+        delay 
+        iteration-count 
+        direction 
+        fill-mode; 
+    */
+    /* animation: changecolor 4s ease-in-out 2s infinite reverse; */
+    animation: changecolor 4s ease-in-out infinite;
+}
+
+/* @keyframes changecolor {
+    0% { background-color: #fff; left: 0; top: 0; border-radius: 0 0 0 0; }
+    25% { background-color: #ff0000; left: 200px; top: 0; border-radius: 50% 0 0 0; }
+    50% { background-color: #ffff00; left: 200px; top: 200px; border-radius: 50% 50% 0 0; }
+    75% { background-color: #00ff00; left: 0; top: 200px; border-radius: 50% 50% 50% 0; }
+    100% { background-color: #fff; left: 0; top: 0; border-radius: 50% 50% 50% 50%; }
+} */
+
+@keyframes changecolor {
+    0% { background-color: #fff; border-radius: 0 0 0 0; }
+    25% { background-color: #ff0000; border-radius: 50% 0 0 0; }
+    50% { background-color: #ffff00; border-radius: 50% 50% 0 0; }
+    75% { background-color: #00ff00; border-radius: 50% 50% 50% 0; }
+    100% { background-color: #fff; border-radius: 50% 50% 50% 50%; }
+}
