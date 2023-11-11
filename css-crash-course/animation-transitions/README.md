@@ -33,6 +33,68 @@ button:hover {
 }
 ```
 
+CSS properties that can be animated or transitioned using CSS transitions. CSS transitional properties are the individual style properties that can change over time, creating visual effects and animations. Here are some common CSS properties that are often used in transitions:
+
+1. **Color Properties:**
+   - `color`: Text color.
+   - `background-color`: Background color.
+
+   ```css
+   element {
+     transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+   }
+   ```
+
+2. **Size and Layout Properties:**
+   - `width`, `height`: The size of the element.
+   - `margin`, `padding`: The spacing around the element.
+   - `border-width`: The width of the element's border.
+
+   ```css
+   element {
+     transition: width 0.3s ease-in-out, margin 0.3s ease-in-out;
+   }
+   ```
+
+3. **Transform Properties:**
+   - `transform`: Applies 2D and 3D transformations.
+
+   ```css
+   element {
+     transition: transform 0.5s ease-in-out;
+   }
+   ```
+
+4. **Opacity:**
+   - `opacity`: The transparency of the element.
+
+   ```css
+   element {
+     transition: opacity 0.5s ease-in-out;
+   }
+   ```
+
+5. **Font Properties:**
+   - `font-size`: The size of the text.
+   - `letter-spacing`: Spacing between characters.
+
+   ```css
+   element {
+     transition: font-size 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
+   }
+   ```
+
+6. **Box Shadow:**
+   - `box-shadow`: Adds a shadow to an element.
+
+   ```css
+   element {
+     transition: box-shadow 0.5s ease-in-out;
+   }
+   ```
+
+These are just a few examples, and many other CSS properties can be transitioned. When applying transitions, you use the `transition` property to define the specific properties you want to animate, the duration of the transition, and optional timing functions and delays. This allows you to create smooth and visually appealing effects when certain states of an element change, such as on hover or click events.
+
 ### CSS Animations:
 
 **Definition:**
