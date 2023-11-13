@@ -83,6 +83,75 @@ Here, `<p>` is the opening tag, and `</p>` is the closing tag, defining a paragr
 
 These are just a few examples of HTML tags categorized by their purpose. HTML provides a versatile set of tags to structure content, create links, embed multimedia, and define the layout and style of a webpage. The combination and nesting of these tags allow developers to create rich and interactive web pages.
 
+In HTML, elements are categorized into two main types: inline elements and block elements. These categories determine how elements behave in relation to other elements on the page and how they affect the flow of content.
+
+### Inline Elements:
+
+1. **Definition:**
+   - Inline elements do not start on a new line and only take up as much width as necessary.
+   - They do not force a new line to begin after the element.
+
+2. **Examples of Inline Elements:**
+   - `<span>`
+   - `<a>` (anchor)
+   - `<strong>` (strong)
+   - `<em>` (emphasis)
+   - `<img>` (image)
+   - `<br>` (line break)
+
+3. **Behavior:**
+   - Inline elements allow other elements to sit to their left and right on the same line.
+   - They only take up as much width as necessary, allowing content to flow around them.
+
+4. **Example:**
+   ```html
+   <p>This is an <strong>inline</strong> element.</p>
+   ```
+
+### Block Elements:
+
+1. **Definition:**
+   - Block elements typically start on a new line and take up the full width available.
+   - They create a "block" or "box" of content.
+
+2. **Examples of Block Elements:**
+   - `<div>`
+   - `<p>` (paragraph)
+   - `<h1> to <h6>` (headings)
+   - `<ul>`, `<ol>`, `<li>` (lists)
+   - `<table>` (table)
+   - `<form>` (form)
+
+3. **Behavior:**
+   - Block elements create a new "block" or "box" of content, pushing elements above and below them onto new lines.
+   - They typically take up the full width of their container, stretching from the left edge to the right edge.
+
+4. **Example:**
+   ```html
+   <div>This is a block element.</div>
+   ```
+
+### Inline-Block Elements:
+
+1. **Definition:**
+   - Inline-block elements combine features of both inline and block elements.
+   - They do not start on a new line, and they only take up as much width as necessary, but you can apply block-level styling to them.
+
+2. **Examples of Inline-Block Elements:**
+   - `<span>` with `display: inline-block;`
+   - `<img>` with `display: inline-block;`
+
+3. **Behavior:**
+   - Inline-block elements allow other elements to sit to their left and right on the same line.
+   - They can be styled with block-level properties like width and height.
+
+4. **Example:**
+   ```html
+   <span style="display: inline-block;">This is an inline-block element.</span>
+   ```
+
+Understanding the distinction between inline and block elements is essential for structuring HTML documents and applying appropriate styling. Inline elements are useful for small, inline-level content, while block elements are more suitable for larger, block-level sections of content.
+
 ### `<h1> to <h6>`: Headings (from largest to smallest).
 
 HTML heading tags (`<h1>` to `<h6>`) are structural elements used to define headings or titles within a document. By default, browsers apply certain styles to these heading tags, and these styles can vary slightly between browsers. Here's a general overview of the default styles for heading tags:
