@@ -229,7 +229,7 @@ This means that the text inside a `<p>` element will be displayed at a size equi
 
 If you want to ensure consistent styling and reset the default styles to a known baseline, you may consider using a CSS reset or normalization techniques at the beginning of your stylesheets. This helps create a consistent starting point for your styling across different browsers.
 
-### Lists
+### HTML Lists
 
 In HTML, lists are used to organize and structure content. There are three main types of lists: unordered lists (`<ul>`), ordered lists (`<ol>`), and definition lists (`<dl>`). Lists are composed of list items (`<li>`) that contain the actual content or items of the list.
 
@@ -318,3 +318,105 @@ Lists can also be nested within one another to create hierarchical structures.
 - Item 3
 
 Lists provide a flexible way to organize and present information in HTML, and they play a crucial role in creating well-structured and accessible content on the web.
+
+### HTML Table
+
+HTML tables are used to organize and present data in a structured grid format. Tables consist of rows and columns, and the intersection of a row and a column is called a cell. The basic structure of an HTML table involves several elements, including `<table>`, `<tr>` (table row), `<th>` (table header cell), and `<td>` (table data cell).
+
+Here's an overview of the key components of an HTML table:
+
+### 1. `<table>` Element:
+
+- **Definition:**
+  - The `<table>` element is the container for the entire table.
+
+- **Attributes:**
+  - `border`: Specifies the border width of the table (deprecated in HTML5, use CSS for styling).
+
+- **Example:**
+  ```html
+  <table border="1">
+    <!-- Table content goes here -->
+  </table>
+  ```
+
+### 2. `<tr>` Element (Table Row):
+
+- **Definition:**
+  - The `<tr>` element defines a row in the table.
+
+- **Example:**
+  ```html
+  <tr>
+    <!-- Table cells (th or td) go here -->
+  </tr>
+  ```
+
+### 3. `<th>` Element (Table Header Cell):
+
+- **Definition:**
+  - The `<th>` element defines a header cell in the table. Header cells are typically used in the first row or first column to label the data in the corresponding cells.
+
+- **Example:**
+  ```html
+  <th>Header 1</th>
+  ```
+
+### 4. `<td>` Element (Table Data Cell):
+
+- **Definition:**
+  - The `<td>` element defines a standard data cell in the table.
+
+- **Example:**
+  ```html
+  <td>Data 1</td>
+  ```
+
+### Example of a Simple Table:
+
+```html
+<table border="1">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1,1</td>
+    <td>Data 1,2</td>
+  </tr>
+  <tr>
+    <td>Data 2,1</td>
+    <td>Data 2,2</td>
+  </tr>
+</table>
+```
+
+**Rendered Output:**
+```
+| Header 1 | Header 2 |
+|----------|----------|
+| Data 1,1 | Data 1,2 |
+| Data 2,1 | Data 2,2 |
+```
+
+### Additional Attributes and Elements:
+
+- **`colspan` and `rowspan` Attributes:**
+  - These attributes allow a cell to span multiple columns or rows.
+
+  ```html
+  <td colspan="2">This cell spans two columns</td>
+  <td rowspan="2">This cell spans two rows</td>
+  ```
+
+- **Caption (`<caption>`):**
+  - The `<caption>` element is used to provide a title or description for the table.
+
+  ```html
+  <caption>Monthly Expenses</caption>
+  ```
+
+- **Styling with CSS:**
+  - While HTML attributes like `border` can be used for basic styling, it's common to use CSS for more advanced styling of tables.
+
+HTML tables are versatile and widely used for displaying tabular data on web pages, ranging from simple data presentations to more complex structures with merged cells and custom styling.
