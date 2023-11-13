@@ -1,4 +1,4 @@
-**HTML (Hypertext Markup Language):**
+## HTML (Hypertext Markup Language)
 HTML is the standard markup language used to create and design documents on the web. It's the basic building block for creating web pages and web applications. HTML uses a system of tags and attributes to structure content and define the elements on a webpage.
 
 **Basic HTML Template**
