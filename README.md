@@ -23,11 +23,11 @@ Welcome to my Frontend Web Development repository. I learned from scratch throug
 
 - 🔗 [Node.js: JavaScript Runtime Environment](https://nodejs.org/en)
 - 🔗 [Blank Dark New Tab Chrome Extension](https://chromewebstore.google.com/detail/blank-dark-new-tab-page/agldajbhchobfgjcmmigehfdcjbmipne/reviews?hl=en)
+- 🔗 [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
 - 🔗 [Live Server VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - 🔗 [Prettier VS Code Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - 🔗 [vscode-icons VS Code Extension](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - 🔗 [Github Themes VS Code Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
-- 🔗 [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
 - 🔗 [W3C HTML Validator](https://validator.w3.org/)
 
 ### 📚 References
