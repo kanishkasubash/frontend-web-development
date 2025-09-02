@@ -35,6 +35,7 @@ Welcome to my Frontend Web Development repository. I learned from scratch throug
 - 🔗 [MDN: Resources for Developers](https://developer.mozilla.org/en-US/)
 - 🔗 [HTML Named Character References](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references)
 - 🔗 [w3Schools: Learn to Code](https://www.w3schools.com/)
+- 🔗 [TypeScript: JavaScript with syntax for types](https://www.typescriptlang.org/)
 
 ## HTML From Scratch
 
