@@ -2,16 +2,16 @@
 
 ## 💻 Source Code:
 
-- 🔗 [Chapter 1: Get Started](https://github.com/gitdagray/html_course/tree/main/01_lesson)
-- 🔗 [Chapter 2: Head Element](https://github.com/gitdagray/html_course/tree/main/01_lesson)
-- 🔗 [Chapter 3: Text Basics](https://github.com/gitdagray/html_course/tree/main/02_lesson)
-- 🔗 [Chapter 4: List Types](https://github.com/gitdagray/html_course/tree/main/03_lesson)
-- 🔗 [Chapter 5: Add Hyper Links](https://github.com/gitdagray/html_course/tree/main/04_lesson)
-- 🔗 [Chapter 6: Add Images](https://github.com/gitdagray/html_course/tree/main/05_lesson)
-- 🔗 [Chapter 7: Semantic Tags](https://github.com/gitdagray/html_course/tree/main/06_lesson)
-- 🔗 [Chapter 8: Create Tables](https://github.com/gitdagray/html_course/tree/main/07_lesson)
-- 🔗 [Chapter 9: Forms & Inputs](https://github.com/gitdagray/html_course/tree/main/08_lesson)
-- 🔗 [Chapter 10: Final Project](https://github.com/gitdagray/html_course/tree/main/10_lesson_starter)
+- 🔗 [Chapter 1: Get Started](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_01.html)
+- 🔗 [Chapter 2: Head Element](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_02.html)
+- 🔗 [Chapter 3: Text Basics](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_03.html)
+- 🔗 [Chapter 4: List Types](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_04.html)
+- 🔗 [Chapter 5: Add Hyper Links](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_05.html)
+- 🔗 [Chapter 6: Add Images](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_06.html)
+- 🔗 [Chapter 7: Semantic Tags](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_07.html)
+- 🔗 [Chapter 8: Create Tables](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_08.html)
+- 🔗 [Chapter 9: Forms & Inputs](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_09.html)
+- 🔗 [Chapter 10: Final Project](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/final_project.html)
 
 ## 📚 HTML References: 
 - 🔗 [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
