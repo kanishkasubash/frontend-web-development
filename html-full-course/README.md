@@ -2,7 +2,7 @@
 
 ## 💻 Source Code:
 
-- 🔗 [Chapter 1: Get Started](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_01/index.html)
+- 🔗 [Chapter 1: Get Started](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/Lesson_01/index.html)
 - 🔗 [Chapter 2: Head Element](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_02/index.html)
 - 🔗 [Chapter 3: Text Basics](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_03/index.html)
 - 🔗 [Chapter 4: List Types](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_04/index.html)
