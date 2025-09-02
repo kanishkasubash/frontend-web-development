@@ -13,6 +13,15 @@
 - 🔗 [Chapter 9: Forms & Inputs](https://github.com/gitdagray/html_course/tree/main/08_lesson)
 - 🔗 [Chapter 10: Final Project](https://github.com/gitdagray/html_course/tree/main/10_lesson_starter)
 
+## 📚 HTML References: 
+- 🔗 [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- 🔗 [MDN: HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+## 📚 HTML Semantic References: 
+- 🔗 [MDN Web Glossary: Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+- 🔗 [w3Schools: Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- 🔗 [MDN: Document and Website Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+
 ## 📚 HTML Table References: 
 - 🔗 [MDN: Table Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
 - 🔗 [MDN: Advanced Tables and Accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)
