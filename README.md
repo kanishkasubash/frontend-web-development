@@ -6,37 +6,34 @@ Welcome to my Frontend Web Development repository. I learned from scratch throug
 
 ## What do we need to start?
 
-### A Web Browser
+### 🌐 Web Browser
 - 🔗 [Google Chrome](https://www.google.com/chrome/)
 - 🔗 [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - 🔗 [Safari](https://www.apple.com/safari/)
 - 🔗 [Edge](https://www.microsoft.com/edge)
  
-### A Text Editor
+### 📝 Text Editor
 - 🔗 [Notepad++](https://notepad-plus-plus.org/downloads/)
 - 🔗 [TextMate(macOS)](https://macromates.com/)
 - 🔗 [Visual Studio Code](https://code.visualstudio.com/)
 - 🔗 [Sublime Text](https://www.sublimetext.com/)
 - 🔗 [Brackets](https://brackets.io/)
-
-### JavaScript Runtime Environment
-- [https://nodejs.org](https://nodejs.org/en)
   
-### ⚙ Free Web Dev Tools
+### ⚙️ Free Web Dev Tools
 
+- 🔗 [Node.js: JavaScript Runtime Environment](https://nodejs.org/en)
 - 🔗 [Blank Dark New Tab Chrome Extension](https://chromewebstore.google.com/detail/blank-dark-new-tab-page/agldajbhchobfgjcmmigehfdcjbmipne/reviews?hl=en)
-- 🔗 [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
-- 🔗 [W3C HTML Validator](https://validator.w3.org/)
 - 🔗 [Live Server VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - 🔗 [Prettier VS Code Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - 🔗 [vscode-icons VS Code Extension](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - 🔗 [Github Themes VS Code Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+- 🔗 [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
+- 🔗 [W3C HTML Validator](https://validator.w3.org/)
 
 ### 📚 References
 
 - 🔗 [MDN: Resources for Developers](https://developer.mozilla.org/en-US/)
 - 🔗 [HTML Named Character References](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references)
-- 🔗 [MDN Web Glossary: Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 - 🔗 [w3Schools: Learn to Code](https://www.w3schools.com/)
 
 ## HTML From Scratch
