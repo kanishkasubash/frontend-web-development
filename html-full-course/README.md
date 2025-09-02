@@ -2,16 +2,16 @@
 
 ## 💻 Source Code:
 
-- 🔗 [Chapter 1: Get Started](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_01.html)
-- 🔗 [Chapter 2: Head Element](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_02.html)
-- 🔗 [Chapter 3: Text Basics](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_03.html)
-- 🔗 [Chapter 4: List Types](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_04.html)
-- 🔗 [Chapter 5: Add Hyper Links](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_05.html)
-- 🔗 [Chapter 6: Add Images](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_06.html)
-- 🔗 [Chapter 7: Semantic Tags](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_07.html)
-- 🔗 [Chapter 8: Create Tables](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_08.html)
-- 🔗 [Chapter 9: Forms & Inputs](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_09.html)
-- 🔗 [Chapter 10: Final Project](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/final_project.html)
+- 🔗 [Chapter 1: Get Started](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_01/index.html)
+- 🔗 [Chapter 2: Head Element](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_02/index.html)
+- 🔗 [Chapter 3: Text Basics](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_03/index.html)
+- 🔗 [Chapter 4: List Types](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_04/index.html)
+- 🔗 [Chapter 5: Add Hyper Links](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_05/index.html)
+- 🔗 [Chapter 6: Add Images](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_06/index.html)
+- 🔗 [Chapter 7: Semantic Tags](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_07/index.html)
+- 🔗 [Chapter 8: Create Tables](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_08/index.html)
+- 🔗 [Chapter 9: Forms & Inputs](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/lesson_09/index.html)
+- 🔗 [Chapter 10: Final Project](https://github.com/kanishkasubash/frontend-web-development/blob/master/html-full-course/final_project/index.html)
 
 ## 📚 HTML References: 
 - 🔗 [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -33,11 +33,12 @@
 ## 🖼️ Image Resources:
 - Placeholder Image Generators:
     - 🔗 [21 of the Best](https://loremipsum.io/21-of-the-best-placeholder-image-generators/)
-- Freely-Usable Images: 
+- Freely-Usable Images & Emojies: 
     - 🔗 [Unsplash.com](https://unsplash.com/)
     - 🔗 [Pexels.com](https://www.pexels.com/)
     - 🔗 [Gratisography.com](https://gratisography.com/)
     - 🔗 [Pixabay.com](https://pixabay.com/)
+    - 🔗 [Emojipedia](https://emojipedia.org/taco/)
 - Image Editing / Resizing Software: 
     - 🔗 For Windows: [Irfanview](https://www.irfanview.com/)
     - 🔗 As a Service: [Canva.com](https://www.canva.com/)
